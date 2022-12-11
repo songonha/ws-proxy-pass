@@ -1,6 +1,6 @@
-import * as https from 'https';
-import * as fs from 'fs';
-import * as websocket from 'websocket';
+const https = require('https');
+const fs = require('fs');
+const websocket = require('ws');
 
 export class WS {
 	private httpserver;
